@@ -1,0 +1,120 @@
+body{
+  background-color: rgb(255,255,240);
+  margin:0px;
+}
+.demo{
+  font-size:40px;
+  /*position:absolute;*/
+}
+.div1{
+  width:auto;
+  height:100px;
+  background-color: rgb(16,19,60);
+}
+.map iframe{
+  width:100%;
+  height:200x;
+  margin-top:50px
+}
+*{box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+.navbar{
+  width: 100%;
+  overflow: hidden;
+  background-color: #555;
+  position:sticky;
+  top:0;
+  z-index:1000; /* ensures it appears above other elements*/
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+.navbar a{
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 25%;
+  text-align: center;
+  float:left;
+  display:block;
+  justify-content: center;
+  align-content: center;
+  align-items: center; /* Align items vertically */
+  text-decoration: none;
+  text-align:center;
+}
+.navbar a i{
+  vertical-align:middle;
+  margin-right:10px;
+}
+.navbar a:hover{
+  background-color: #000;
+}
+.navbar a.active{
+  background-color: #1c23de;
+  font-weight: bold; /* Example: Highlight active link */
+}
+@media screen and (max-width: 500px){
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+.navbar a .material-icons{
+    margin-right: 5px; /* Adjust spacing between icon and text */
+}
+.tb{
+  width:100vw;
+}
+.tb img{
+  width:100%;
+  height:100px;
+}
+#main{
+  width:100vw;
+  height:600px;
+  background:linear-gradient(#F4F4F4,#10133C,#F4F4F4);
+}
+.partners{
+  align-items:center;
+  justify-content:center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image {
+  flex: 0 0 30%; /* Adjust width of images */
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+.image:hover {
+  transform: translateY(-5px);
+}
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}

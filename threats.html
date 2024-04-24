@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="_footer.css">
+    <link rel="stylesheet" href="threats.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threats</title>
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<body>
+    <div class="div1">
+        <img src="/images/logo_dark.jpg" alt="logo" style="height:100px;width:auto"> 
+    </div>
+    
+    <div class="navbar">
+        <a href="index.html"><i class="material-icons">home</i>Home</a> 
+        <a class="active" href="threats.html"><i class="material-icons">warning</i>Threats</a>
+        <a href="solutions.html"><i class="material-icons">lightbulb_outline</i>Solutions</a> 
+        <a href="contact.html"><i class="material-icons">email</i>Contact</a> 
+    </div>
+
+    <div class="tb">
+        <img src="/images/threats_bg.jpg" alt="tech abstract bakground" style="height:100px;width:100%">
+    </div>
+
+    <section>
+        <h2>Understanding Cybersecurity and its different forms</h2>
+        <p>Cybersecurity threats are harmful activities aimed at damaging or stealing data, or causing disruption in the digital world. These threats can originate from various entities like cybercriminals, nation-states, and even cyberterrorists, and they employ different tactics such as computer viruses, data breaches, Denial of Service (DoS) attacks, among others..</p>
+        <h2>Common Types of Cybersecurity Issues</h2>
+        <ul>
+            <li><strong>Cybercrime:</strong> This involves individuals or groups who target systems for monetary gain or to cause disruption. Tactics used include malware, ransomware, and phishing scams to extort money or steal private or sensitive information from individuals and companies.</li>
+            <li><strong>Cyber-attacks:</strong> These are usually politically motivated and involve information gathering. Nation-states and governments often fund hackers and threat groups to further their national interests.</li>
+            <li><strong>Ransomware:</strong> Ransomware is a type of malware that encrypts files or systems and demands payment (usually in cryptocurrency) for their release. It can spread rapidly across a network and cause significant damage.</li>
+            <li><strong>Cyberterrorism:</strong> This aims to undermine electronic systems to instill panic or fear. Since these groups are well-funded, their operations often pose some of the most advanced cyber threats.</li>
+        </ul>
+    </section>
+
+    <div class="charts-container">   
+        <div class="pie_chart">
+            <canvas id="Chart" style="width:100%;max-width:600px"></canvas>
+            <script src="threats.js"></script>
+        </div>
+        <div class="bar_chart">
+            <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+            <script src="threats.js"></script>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.615125234943!2d0.4781645840207054!3d50.856810984772295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47df1ac7e6215193%3A0xf37031a92ad6d486!2sFactory%20Internet!5e0!3m2!1sen!2suk!4v1713262433018!5m2!1sen!2suk" height="200px" width="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <div class="info">
+            <img src="/images/logo_light.jpg">
+            <h3>High Weald House, Bexhill-On-Sea, East Sussex, TN39 5ES</h3>
+            <h3><a href="mailto:sales@factoryinternet.co.uk">sales@factoryinternet.co.uk</a></h3>
+            <h3>(+44)1424 540175</h3>
+            <h3><a href="https://www.factoryinternet.co.uk/">www.factoryinternet.co.uk</a></h3>
+        </div>
+        <div class="bottom">
+            <div class="twitter">
+                <a href="https://twitter.com/factoryinternet">
+                <img src="/images/twitter_icon.png" alt="twitter icon" class="img_t">
+                </a>
+                <h4>Twitter</h4>
+            </div>
+            <div class="facebook">
+                <a href="https://www.facebook.com/factoryinternet">
+                <img src="/images/facebook_icon.png" alt="facebook icon" class="img_f">
+                </a>
+                <h4>Facebook</h4>
+            </div>
+            <div class="lin">
+                <a href="https://www.linkedin.com/company/factoryinternetltd/">
+                <img src="/images/linkedin_icon.png" alt="linkedin icon" class="img_l">
+                </a>
+                <h4>Linkedin</h4>
+            </div>
+        </div>
+        <h5 style="color:black">Copyright &copy 2024</h5>
+    </footer>
+
+</body>
+</html>

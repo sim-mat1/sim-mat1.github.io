@@ -1,0 +1,84 @@
+.tb{
+    width:100vw;
+}
+.tb img{
+    width:100%;
+    height:100px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover {
+    background-color: #555;
+}
+section {
+    padding: 20px;
+}
+h2 {
+    color: #007bff;
+}
+p {
+    line-height: 1.6;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.chart-container {
+    width: 80%;
+    margin: 50px auto;
+}
+.chart-bar {
+    display: inline-block;
+    width: 30px;
+    background-color: #007bff;
+    margin-right: 10px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    position: relative;
+}
+.chart-bar span {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.charts-container{
+    display:flex;
+    justify-content:space-between;
+    max-width:2000px;
+    margin:0 auto;
+}
+.pie_chart{
+    flex:1;
+    max-width:1000px;
+    margin-left:200px 
+}
+.bar_chart{
+    flex:1;
+    max-width:1000px;
+    margin-left: 20px;
+    margin-top: 150px
+}
